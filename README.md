@@ -55,3 +55,5 @@ It was developed as part of a hands-on workshop on building intelligent web apps
    streamlit run app.py
 
 
+This project demonstrates how quickly and efficiently you can build powerful NLP applications using Google's Gemini API and Streamlit. Whether you're just exploring LLMs or presenting a workshop/demo, this app offers a great starting point to understand real-world use cases of generative AI.
+
