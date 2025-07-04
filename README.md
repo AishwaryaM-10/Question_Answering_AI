@@ -27,22 +27,26 @@ It was developed as part of a hands-on workshop on building intelligent web apps
 1. **Clone the repository**
 
    git clone https://github.com/AishwaryaM-10/Question_Answering_AI.git
+   
    cd Question_Answering_AI
 
-2. **Create and activate a virtual environment (optional but recommended)**
+3. **Create and activate a virtual environment (optional but recommended)**
    python -m venv venv
-   # On Windows
+   On Windows
    venv\Scripts\activate
-   # On macOS/Linux
+   On macOS/Linux
    source venv/bin/activate
 
-3. **Install dependencies**
+4. **Install dependencies**
+
    pip install -r requirements.txt
 
-4. **Create a .env file and add your API key**
+6. **Create a .env file and add your API key**
+
    GOOGLE_API_KEY=your_google_api_key_here
 
-5. **Run the app**
+8. **Run the app**
+   
    streamlit run app.py
 
 
