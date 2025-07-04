@@ -31,13 +31,18 @@ It was developed as part of a hands-on workshop on building intelligent web apps
    cd Question_Answering_AI
 
 3. **Create and activate a virtual environment (optional but recommended)**
+   
    python -m venv venv
+   
    On Windows
+   
    venv\Scripts\activate
+   
    On macOS/Linux
+   
    source venv/bin/activate
 
-4. **Install dependencies**
+5. **Install dependencies**
 
    pip install -r requirements.txt
 
