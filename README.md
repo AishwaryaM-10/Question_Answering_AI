@@ -24,35 +24,35 @@ It was developed as part of a hands-on workshop on building intelligent web apps
 
 ### 📦 Setup Instructions
 
-1. **Clone the repository**
+#### 1. Clone the repository
 
-   git clone https://github.com/AishwaryaM-10/Question_Answering_AI.git
+     git clone https://github.com/AishwaryaM-10/Question_Answering_AI.git
    
-   cd Question_Answering_AI
+     cd Question_Answering_AI
 
-3. **Create and activate a virtual environment (optional but recommended)**
+#### 2. Create and activate a virtual environment (optional but recommended)
    
-   python -m venv venv
+     python -m venv venv
    
    On Windows
    
-   venv\Scripts\activate
+    venv\Scripts\activate
    
    On macOS/Linux
    
-   source venv/bin/activate
+    source venv/bin/activate
 
-5. **Install dependencies**
+#### 3. Install dependencies
 
-   pip install -r requirements.txt
+     pip install -r requirements.txt
 
-6. **Create a .env file and add your API key**
+#### 4. Create a .env file and add your API key
 
-   GOOGLE_API_KEY=your_google_api_key_here
+     GOOGLE_API_KEY=your_google_api_key_here
 
-8. **Run the app**
+#### 5.Run the app
    
-   streamlit run app.py
+     streamlit run app.py
 
 
 This project demonstrates how quickly and efficiently you can build powerful NLP applications using Google's Gemini API and Streamlit. Whether you're just exploring LLMs or presenting a workshop/demo, this app offers a great starting point to understand real-world use cases of generative AI.
